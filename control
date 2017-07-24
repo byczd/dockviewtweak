@@ -1,0 +1,9 @@
+Package: com.adong.dockviewtweak
+Name: DockViewTweak
+Depends: mobilesubstrate
+Version: 1.0.1
+Architecture: iphoneos-arm
+Description: An awesome MobileSubstrate tweak!
+Maintainer: adong
+Author: adong
+Section: Tweaks

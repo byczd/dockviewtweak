@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>DockViewBundle First Page</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.adong.dockviewbundle</string>
+			<key>key</key>
+			<string>AlphaSwitch</string>
+			<key>label</key>
+			<string>switch to Alpha</string>
+		</dict>
+		<dict>
+			<key>label</key>
+			<string>AlphaValue</string>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>Set the alpha value</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSliderCell</string>
+			<key>min</key>
+			<integer>0</integer>
+			<key>max</key>
+			<integer>1</integer>
+			<key>default</key>
+			<real>0.2</real>
+			<key>defaults</key>
+			<string>com.adong.dockviewbundle</string>
+			<key>key</key>
+			<string>alphavalue</string>
+			<key>isContinuous</key>
+			<true/>
+			<key>showValue</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>label</key>
+			<string>More Information</string>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>the tweak is Dock alpha func</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>http://weibo.com/zijingfanou/</string>
+			<key>action</key>
+			<string>myWeibo</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>DockViewBundle</string>
+</dict>
+</plist>

@@ -1,0 +1,1 @@
+preferenceBundleDemo.bundle是theos编写的一个bundle程序，编译安装到ios后，将其从/Library/PreferenceBundles/目录下拷贝出来的，以便在此tweak中能读取到此bundle的设置，从而根据设置来进行相关操作；
